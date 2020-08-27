@@ -10,9 +10,9 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/unidoc/unipdf/v3/common"
-	"github.com/unidoc/unipdf/v3/internal/transform"
-	"github.com/unidoc/unipdf/v3/model"
+	"github.com/nattyhugs/unipdf/v3/common"
+	"github.com/nattyhugs/unipdf/v3/internal/transform"
+	"github.com/nattyhugs/unipdf/v3/model"
 )
 
 // textMark represents text drawn on a page and its position in device coordinates.

@@ -9,10 +9,10 @@ import (
 	"image"
 	"math"
 
-	"github.com/unidoc/unipdf/v3/common"
+	"github.com/nattyhugs/unipdf/v3/common"
 
-	"github.com/unidoc/unipdf/v3/internal/jbig2/bitmap"
-	"github.com/unidoc/unipdf/v3/internal/jbig2/errors"
+	"github.com/nattyhugs/unipdf/v3/internal/jbig2/bitmap"
+	"github.com/nattyhugs/unipdf/v3/internal/jbig2/errors"
 )
 
 var debugCorrelationScore bool
