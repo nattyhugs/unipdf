@@ -20,12 +20,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/unidoc/unipdf/v3/common"
-	"github.com/unidoc/unipdf/v3/contentstream"
-	"github.com/unidoc/unipdf/v3/core"
-	"github.com/unidoc/unipdf/v3/model"
+	"github.com/nattyhugs/unipdf/v3/common"
+	"github.com/nattyhugs/unipdf/v3/contentstream"
+	"github.com/nattyhugs/unipdf/v3/core"
+	"github.com/nattyhugs/unipdf/v3/model"
 
-	"github.com/unidoc/unipdf/v3/internal/jbig2/document"
+	"github.com/nattyhugs/unipdf/v3/internal/jbig2/document"
 )
 
 // register basic image drivers - gif, jpeg, png

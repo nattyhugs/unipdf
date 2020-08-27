@@ -14,12 +14,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/unidoc/unipdf/v3/common"
-	"github.com/unidoc/unipdf/v3/contentstream"
-	"github.com/unidoc/unipdf/v3/core"
-	"github.com/unidoc/unipdf/v3/internal/textencoding"
-	"github.com/unidoc/unipdf/v3/internal/transform"
-	"github.com/unidoc/unipdf/v3/model"
+	"github.com/nattyhugs/unipdf/v3/common"
+	"github.com/nattyhugs/unipdf/v3/contentstream"
+	"github.com/nattyhugs/unipdf/v3/core"
+	"github.com/nattyhugs/unipdf/v3/internal/textencoding"
+	"github.com/nattyhugs/unipdf/v3/internal/transform"
+	"github.com/nattyhugs/unipdf/v3/model"
 	"golang.org/x/xerrors"
 )
 

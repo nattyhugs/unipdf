@@ -21,9 +21,9 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/unidoc/unipdf/v3/common"
-	"github.com/unidoc/unipdf/v3/creator"
-	"github.com/unidoc/unipdf/v3/model"
+	"github.com/nattyhugs/unipdf/v3/common"
+	"github.com/nattyhugs/unipdf/v3/creator"
+	"github.com/nattyhugs/unipdf/v3/model"
 	"golang.org/x/text/unicode/norm"
 )
 
