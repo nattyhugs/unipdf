@@ -67,7 +67,20 @@ func (a *adobeX509RSASHA1) InitSignature(sig *model.PdfSignature) error {
 }
 
 func getHashFromSignatureAlgorithm(sa x509.SignatureAlgorithm) (crypto.Hash, bool) {
-	return crypto.SHA1, true
+	var algo crypto.Hash
+	switch sa {
+	case x509.SHA1WithRSA:
+		algo = crypto.SHA1
+	case x509.SHA256WithRSA:
+		algo = crypto.SHA256
+	case x509.SHA384WithRSA:
+		algo = crypto.SHA384
+	case x509.SHA512WithRSA:
+		algo = crypto.SHA512
+	default:
+		return crypto.SHA1, false
+	}
+	return algo, true
 }
 
 func (a *adobeX509RSASHA1) getCertificate(sig *model.PdfSignature) (*x509.Certificate, error) {
